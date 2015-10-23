@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry1_BasicNnetwork", "PythonTry1\PythonTry1_BasicNnetwork.pyproj", "{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry2_Multithread", "PythonTry2\PythonTry2_Multithread.pyproj", "{51B5358C-8EA1-47EB-B555-D9707BF74C1E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry3_GUI", "PythonTry3_GUI\PythonTry3_GUI.pyproj", "{5A41C21D-EDD4-4F30-B6B5-D6D88A248F09}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry4_C", "PythonTry4_SQL\PythonTry4_C.pyproj", "{9A35686C-D7EB-46DB-850F-5A403B8AB788}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_test", "C_test\C_test.vcxproj", "{329C5605-B067-4F7E-8655-17C3C4D911D0}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Perceptron_try", "Perceptron_try\Perceptron_try.pyproj", "{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{51B5358C-8EA1-47EB-B555-D9707BF74C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B5358C-8EA1-47EB-B555-D9707BF74C1E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51B5358C-8EA1-47EB-B555-D9707BF74C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B5358C-8EA1-47EB-B555-D9707BF74C1E}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A41C21D-EDD4-4F30-B6B5-D6D88A248F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A41C21D-EDD4-4F30-B6B5-D6D88A248F09}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A41C21D-EDD4-4F30-B6B5-D6D88A248F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A41C21D-EDD4-4F30-B6B5-D6D88A248F09}.Release|x86.ActiveCfg = Release|Any CPU
+		{9A35686C-D7EB-46DB-850F-5A403B8AB788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A35686C-D7EB-46DB-850F-5A403B8AB788}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9A35686C-D7EB-46DB-850F-5A403B8AB788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A35686C-D7EB-46DB-850F-5A403B8AB788}.Release|x86.ActiveCfg = Release|Any CPU
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Debug|x86.Build.0 = Debug|Win32
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Release|x86.ActiveCfg = Release|Win32
+		{329C5605-B067-4F7E-8655-17C3C4D911D0}.Release|x86.Build.0 = Release|Win32
+		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
