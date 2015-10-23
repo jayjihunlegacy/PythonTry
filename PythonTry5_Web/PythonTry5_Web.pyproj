@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>51b5358c-8ea1-47eb-b555-d9707bf74c1e</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>MT_general.py</StartupFile>
+    <ProjectGuid>9484a632-72f4-4add-b4a0-86194247c56f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonTry5_Web.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonTry2_Multithread</Name>
-    <RootNamespace>PythonTry2</RootNamespace>
+    <Name>PythonTry5_Web</Name>
+    <RootNamespace>PythonTry5_Web</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,19 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MT with thread.py" />
-    <Compile Include="MT with threading using Callable.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MT with threading using inheritance.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MT with threading.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="MT_general.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="PythonTry5_Web.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

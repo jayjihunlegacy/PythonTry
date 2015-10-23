@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry1_BasicNnetwork", "PythonTry1\PythonTry1_BasicNnetwork.pyproj", "{A0052C3F-E3DD-4917-B8BF-EEB190BF99CD}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_test", "C_test\C_test.vcxproj", "{329C5605-B067-4F7E-8655-17C3C4D911D0}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Perceptron_try", "Perceptron_try\Perceptron_try.pyproj", "{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry5_Web", "PythonTry5_Web\PythonTry5_Web.pyproj", "{9484A632-72F4-4ADD-B4A0-86194247C56F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B2CC77E-5E35-4FC8-83DC-B7E06401D7E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{9484A632-72F4-4ADD-B4A0-86194247C56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9484A632-72F4-4ADD-B4A0-86194247C56F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9484A632-72F4-4ADD-B4A0-86194247C56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9484A632-72F4-4ADD-B4A0-86194247C56F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
