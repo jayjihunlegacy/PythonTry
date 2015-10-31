@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9484a632-72f4-4add-b4a0-86194247c56f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTry5_Web.py</StartupFile>
+    <StartupFile>PythonTry5_Crawler.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonTry5_Crawler.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTry5_Web.py" />
   </ItemGroup>
   <PropertyGroup>
