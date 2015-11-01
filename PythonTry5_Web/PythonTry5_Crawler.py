@@ -67,7 +67,7 @@ class Retriever(object):
             parser.feed(line)
                
         parser.close()
-        return parser.
+        return parser.anchorlist
 
     
 class Crawler(object):
