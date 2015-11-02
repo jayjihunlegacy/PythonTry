@@ -11,9 +11,10 @@ taeAddr = "shermantree@snu.ac.kr"
 nanAddr = "wkdmsdid@naver.com"
 woosAddr = "adntjr4@naver.com"
 myungAddr = "myeol2@naver.com"
+devAddr = "devjayjihun@gmail.com"
 
-sub = "[FBI Warning]"
-body = "Freeze!"
+sub = "This is subject"
+body = "This is body"
 
 def makeMessege(subject, body, senderAddr, recAddr):#sender and receiver meaningless
     msg = MIMEText(body)
@@ -32,6 +33,6 @@ def send(msg, senderAddr, recAddr):#real sender and receiver
     s.close()
     print("Mail to",recAddr,"sent successfully.")
 
-msg = makeMessege(sub, body, "fbi@warning.or.kr", "nobody")
-send(msg, senderAddr, myungAddr)
+msg = makeMessege(sub, body, senderAddr, devAddr)
+send(msg, senderAddr, devAddr)
 print("Finished.")

@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9484a632-72f4-4add-b4a0-86194247c56f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTry5_Email.py</StartupFile>
+    <StartupFile>PythonTry5_XMLParsing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Python5_Openapi.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTry5_Crawler.py">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonTry5_Web.py" />
+    <Compile Include="PythonTry5_XMLParsing.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
