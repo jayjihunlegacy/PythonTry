@@ -1,4 +1,4 @@
-from xml.dom.minidom import parse, parseString
+﻿from xml.dom.minidom import parse, parseString, Document
 from xml.etree import ElementTree
 
 # the xml must me saved using "ANSI" encoding.
@@ -43,6 +43,37 @@ def PrintDOMtoXML():
     if checkDocument():
         print(BooksDoc.toxml())
 
+def PrintBookList(tag):
+    global BooksDoc
+    if not checkDocument():
+        return None
+
+    booklist=BooksDoc.childNodes[0].childNodes
+    for item in booklist:
+        if item.nodeName == "book":
+            subitems = item.childNodes
+
+            for atom in subitems:
+                if atom.nodeName in tag:
+                    print("title=", atom.firstChild.nodeValue) #firstChild of title is the title text.
+
+
+def AddBook(bookdata):
+    global BooksDoc
+    if not checkDocument():
+        return None
+
+    #new Book!
+    newBook = BooksDoc.createElement('book') #BooksDoc here is meaningless.
+    newBook.setAttrubute('ISBN', bookdata['ISBN'])
+
+    #new Title!
+    titleEle = BooksDoc.createElement('title')
+
+
+
+
+
 depth = 0
 def Print(node):
     global depth
@@ -56,8 +87,17 @@ def Print(node):
 BooksDoc = LoadXMLFromFile()
 PrintDOMtoXML()
 print("================================================")
+dummy = Document()
+newBook = dummy.createElement('book')
+newBook.setAttribute('ISBN', "111")
+BooksDoc.firstChild.appendChild(newBook)
 
-Print(BooksDoc.childNodes[0])
+PrintDOMtoXML()
+
+print(type(BooksDoc))
+PrintBookList(["title",])
+
+#Print(BooksDoc.childNodes[0])
 
 BooksFree()
     
