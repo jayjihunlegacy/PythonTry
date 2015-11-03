@@ -19,6 +19,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry5_Web", "PythonTry
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry0_RegularExpression", "PythonTry0_RegularExpression\PythonTry0_RegularExpression.pyproj", "{431F6D0E-6273-451F-B217-E9A6AFB56987}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry6_Server", "PythonTry6_Server\PythonTry6_Server.pyproj", "{67B7725E-C762-4964-ABDC-571D66EB4CA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{431F6D0E-6273-451F-B217-E9A6AFB56987}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{431F6D0E-6273-451F-B217-E9A6AFB56987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{431F6D0E-6273-451F-B217-E9A6AFB56987}.Release|x86.ActiveCfg = Release|Any CPU
+		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

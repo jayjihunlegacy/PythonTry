@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9484a632-72f4-4add-b4a0-86194247c56f</ProjectGuid>
+    <ProjectGuid>67b7725e-c762-4964-abdc-571d66eb4ca7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python5_Openapi.py</StartupFile>
+    <StartupFile>PythonTry6_Server.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonTry5_Web</Name>
-    <RootNamespace>PythonTry5_Web</RootNamespace>
+    <Name>PythonTry6_Server</Name>
+    <RootNamespace>PythonTry6_Server</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,22 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python5_Openapi.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonTry5_Books.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonTry5_Crawler.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonTry5_Email.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonTry5_Web.py" />
-    <Compile Include="PythonTry5_XMLParsing.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="PythonTry6_Server.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

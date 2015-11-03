@@ -65,11 +65,49 @@ def AddBook(bookdata):
 
     #new Book!
     newBook = BooksDoc.createElement('book') #BooksDoc here is meaningless.
-    newBook.setAttrubute('ISBN', bookdata['ISBN'])
+    newBook.setAttribute('ISBN', bookdata['ISBN'])
 
     #new Title!
     titleEle = BooksDoc.createElement('title')
 
+    #Text element
+    titleNode = BooksDoc.createTextNode(bookdata['title'])
+
+    try:
+        titleEle.appendChild(titleNode)
+    except Exception:
+        print("append child failed - please check the parent element & node")
+        return None
+    else:
+        titleEle.appendChild(titleNode)
+
+    try:
+        newBook.appendChild(titleEle)
+        booklist = BooksDoc.firstChild
+    except Exception:
+        print("append child failed - please check the parent element & node")
+        return None
+    else:
+        if booklist != None:
+            booklist.appendChild(newBook)
+
+def SearchBookTitle(keyword):
+    global BooksDoc
+    retlist = []
+    if not checkDocument():
+        return None
+
+    try:
+        tree = ElementTree.fromstring(str(BooksDoc.toxml()))
+    except Exception:
+        print("Element Tree parsing Error : maybe the xml document is not correct.")
+        return None
+    bookElements = tree.getiterator("book")
+    for item in bookElements:
+        strTitle = item.find("title")
+        if(strTitle.text.find(keyword)>=0):
+            retlist.append((item.attrib["ISBN"], strTitle.text))
+    return retlist
 
 
 
@@ -87,14 +125,15 @@ def Print(node):
 BooksDoc = LoadXMLFromFile()
 PrintDOMtoXML()
 print("================================================")
-dummy = Document()
-newBook = dummy.createElement('book')
-newBook.setAttribute('ISBN', "111")
-BooksDoc.firstChild.appendChild(newBook)
+
+newBook={"title":"Tiger", "ISBN" : "201311557"}
+AddBook(newBook)
 
 PrintDOMtoXML()
+print("================================================")
+print(SearchBookTitle("Harry"))
 
-print(type(BooksDoc))
+
 PrintBookList(["title",])
 
 #Print(BooksDoc.childNodes[0])
