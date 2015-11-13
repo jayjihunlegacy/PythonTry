@@ -21,6 +21,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry0_RegularExpressio
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry6_Server", "PythonTry6_Server\PythonTry6_Server.pyproj", "{67B7725E-C762-4964-ABDC-571D66EB4CA7}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonTry7_Crawler", "PythonTry7_Crawler\PythonTry7_Crawler.pyproj", "{573C861C-F736-4EC7-8984-DA6A52F37742}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67B7725E-C762-4964-ABDC-571D66EB4CA7}.Release|x86.ActiveCfg = Release|Any CPU
+		{573C861C-F736-4EC7-8984-DA6A52F37742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573C861C-F736-4EC7-8984-DA6A52F37742}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{573C861C-F736-4EC7-8984-DA6A52F37742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573C861C-F736-4EC7-8984-DA6A52F37742}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
