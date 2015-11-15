@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>67b7725e-c762-4964-abdc-571d66eb4ca7</ProjectGuid>
+    <ProjectGuid>f90dfdd2-38db-4430-8f2b-ca8e8744ab0f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTry6_Server.py</StartupFile>
+    <StartupFile>PythonTry8_SQL.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonTry6_Server</Name>
-    <RootNamespace>PythonTry6_Server</RootNamespace>
+    <Name>PythonTry8_SQL</Name>
+    <RootNamespace>PythonTry8_SQL</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonTry6_Server.py" />
+    <Compile Include="PythonTry8_SQL.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
