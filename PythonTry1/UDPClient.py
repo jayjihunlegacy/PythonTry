@@ -1,21 +1,23 @@
-from socket import *
+﻿from socket import *
 import sys
 
 HOST = "127.0.0.1";
-PORT = 11558
+PORT = 11557
 BUFSIZE = 1024
 ADDR = (HOST,PORT);
 udpCliSock = socket(AF_INET,SOCK_DGRAM);
 
-while True:
-    data = input(">");
-    if not data:
-        break;
-    udpCliSock.sendto(bytes(data,"utf-8"),ADDR);
-    data, ADDR = udpCliSock.recvfrom(BUFSIZE);
-    if not data:
-        break;
-    print(data.decode("utf-8"));
-    sys.stdout.flush();
 
-udpCliSock.close();
+def call():
+    trynum = 1
+    while True:
+        #go = input(">>")
+        data = "Try : "+str(trynum)
+        trynum += 1
+        udpCliSock.sendto(bytes(data,"utf-8"),ADDR);
+        if trynum>10:
+            break
+    udpCliSock.close();
+
+
+call()
