@@ -6,7 +6,7 @@
     <ProjectGuid>51b5358c-8ea1-47eb-b555-d9707bf74c1e</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>MT_general.py</StartupFile>
+    <StartupFile>MT with threading using Callable.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

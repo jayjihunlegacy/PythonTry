@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>67b7725e-c762-4964-abdc-571d66eb4ca7</ProjectGuid>
+    <ProjectGuid>9dee6a5e-2bc4-46ae-9383-7690acadaf10</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTry6_Server.py</StartupFile>
+    <StartupFile>SQLPlay.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonTry6_Server</Name>
-    <RootNamespace>PythonTry6_Server</RootNamespace>
+    <Name>SQLPlay</Name>
+    <RootNamespace>SQLPlay</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonTry6_Server.py" />
+    <Compile Include="SQLPlay.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

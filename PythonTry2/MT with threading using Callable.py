@@ -1,4 +1,4 @@
-import threading
+﻿import threading
 from time import sleep,ctime
 
 loops=[4,2]
@@ -20,11 +20,11 @@ def loop(nloop,nsec):
 
 def main():
     print("Starting at : {}".format(ctime()));
-    threads=[]
+    threads=list()
     nloops = range(len(loops))
 
     for i in nloops:
-        t = threading.Thread(target=ThreadFunc(loop,(i,loops[i]),loop.__name__)
+        t = threading.Thread(target=ThreadFunc(loop,(i,loops[i]),loop.__name__))
         threads.append(t)
 
     for i in nloops:
