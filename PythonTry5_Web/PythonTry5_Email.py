@@ -6,15 +6,17 @@ from email.mime.text import MIMEText
 host = "smtp.snu.ac.kr"
 port = "587"
 senderAddr = "t080205@snu.ac.kr"
-jayAddr = "t080205@gmail.com"
+jayAddr = "t080205ip@gmail.com"
+'''
 taeAddr = "shermantree@snu.ac.kr"
 nanAddr = "wkdmsdid@naver.com"
 woosAddr = "adntjr4@naver.com"
 myungAddr = "myeol2@naver.com"
 devAddr = "devjayjihun@gmail.com"
+'''
 
-sub = "This is subject"
-body = "This is body"
+sub = "Genetic Algorithm Notification"
+body = "Genome found!"
 
 def makeMessege(subject, body, senderAddr, recAddr):#sender and receiver meaningless
     msg = MIMEText(body)
@@ -33,6 +35,6 @@ def send(msg, senderAddr, recAddr):#real sender and receiver
     s.close()
     print("Mail to",recAddr,"sent successfully.")
 
-msg = makeMessege(sub, body, senderAddr, devAddr)
-send(msg, senderAddr, devAddr)
+msg = makeMessege(sub, body, senderAddr, jayAddr)
+send(msg, senderAddr, jayAddr)
 print("Finished.")

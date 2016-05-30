@@ -2,10 +2,12 @@
 import sys
 from time import sleep
 
-HOST = "127.0.0.1"
+HOST = "175.198.72.171"
 PORT = 11557;
 BUFSIZE = 1024
 ADDR = (HOST,PORT);
+keepgoing = True
+
 
 while True:
     sys.stdout.flush();
@@ -16,11 +18,10 @@ while True:
         break;
 
     tcpCliSock.send(bytes(data+"\n","utf-8"));
+    print("g1")
     data2 = tcpCliSock.recv(BUFSIZE);
-    if not data2:
-        break;
-
-    print(data2.decode("utf-8"));
-    sys.stdout.flush();
-    #tcpCliSock.close();
-#tcpCliSock.close();
+    print("g2")
+    while keepgoing:
+        data = tcpCliSock.recv(BUFSIZE)
+        if data:
+            print(data.decode('utf-8'))

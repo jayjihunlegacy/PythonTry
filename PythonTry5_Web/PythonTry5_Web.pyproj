@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9484a632-72f4-4add-b4a0-86194247c56f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python5_Openapi.py</StartupFile>
+    <StartupFile>PythonTry5_Email.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
